@@ -30,6 +30,16 @@ namespace SampleBrowser.Controllers
             return View();
         }
 
+
+        [HttpPost]
+        public IActionResult AddSongs(SongArtistViewModel SongInfo)
+        {
+            return View();
+        }
+        
+
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
