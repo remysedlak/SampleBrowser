@@ -18,7 +18,14 @@ namespace SampleBrowser.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+       [HttpGet] public IActionResult Privacy()
+        {
+            return View();
+        }
+
+
+        [HttpGet]
+        public IActionResult AddSongs()
         {
             return View();
         }

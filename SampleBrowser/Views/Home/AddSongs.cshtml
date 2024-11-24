@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "AddUsers";
+}
+
+<form>
+    <!-- Song Name -->
+    <div class="form-group">
+        <label for="SongTitle">Song Name</label>
+        <input type="text" class="form-control" id="SongTitle" name="SongTitle" placeholder="Enter song name" required>
+    </div>
+
+    <!-- Artist Name -->
+    <div class="form-group">
+        <label for="ArtistName">Artist Name</label>
+        <input type="text" class="form-control" id="ArtistName" name="ArtistName" placeholder="Enter artist name" required>
+    </div>
+
+    <!-- File Upload -->
+    <div class="form-group">
+        <label for="SongFile">Song File</label>
+        <input type="file" class="form-control-file" id="SongFile" name="SongFile" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
