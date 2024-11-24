@@ -1,13 +1,13 @@
 Completed:<br>
-...............**Schema**<br>
+...............**Schema and Model Creation**<br>
 .................................Created models<br>
 .................................Created variables<br>
 .................................Relate models or vars from other models<br>
-...............**Context**<br>
+...............**Context Model**<br>
 .................................Added a initial migration<br>
 .................................Update-Database<br>
 .................................DB Browser shows proper schema<br>
-...............**Insertion**<br>
+...............**Element Insertion**<br>
 .................................Boot strap form for receiving Artist, Song, File<br>
 ...............@@TODO:<br>
 .................................Safely and properly receive file path<br>
